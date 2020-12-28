@@ -1,0 +1,8 @@
+.richPeople{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.personCard img{
+    max-width: 200px;
+}
