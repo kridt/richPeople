@@ -1,8 +1,23 @@
 .richPeople{
+    max-width: 799px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-
+h1{
+    text-align: center;
+}
 .personCard img{
     max-width: 200px;
+}
+.personCard{
+    text-align: center;
+}
+.personCard a{
+    color: black;
+    text-decoration: none;
+}
+
+.showMore{
+    display: none;
 }
